@@ -1,6 +1,6 @@
 specVersion: 0.0.2
 description: Conditional Tokens subgraph
-repository: 'https://github.com/gnosis/hg-contracts'
+repository: 'https://github.com/gnosis/conditional-tokens-contracts'
 schema:
   file: ./schema.graphql
 dataSources:
