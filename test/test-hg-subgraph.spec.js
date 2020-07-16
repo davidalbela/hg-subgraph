@@ -5,7 +5,7 @@ const ConditionalTokens = TruffleContract(
   require('@gnosis.pm/conditional-tokens-contracts/build/contracts/ConditionalTokens.json')
 );
 const ERC20Mintable = TruffleContract(
-  require('openzeppelin-solidity/build/contracts/ERC20Mintable.json')
+  require('openzeppelin-solidity/contracts/build/contracts/ERC20Mintable.json')
 );
 [ConditionalTokens, ERC20Mintable].forEach((C) => C.setProvider('http://localhost:8545'));
 const web3 = ConditionalTokens.web3;
