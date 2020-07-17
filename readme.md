@@ -8,7 +8,7 @@ Subgraph for Gnosis Conditional Tokens
 
 - Docker CE
 - docker-compose
-- Node v10.6.3 or higher
+- Node `v12.9.1` or higher
 
 ## Testing Quickstart
 
